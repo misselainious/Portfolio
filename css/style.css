@@ -1,0 +1,19 @@
+body{
+    font-family: 'Thasadith', sans-serif;
+    font-family: 'Abel', sans-serif;
+}
+#shaded{
+    background-color: rgb(175, 154, 194);
+    width: 100%;
+}
+
+.intro {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 50px 10px;
+    transform: skewX(30deg);
+    width: calc(100% - 200px);
+}
+#hi{
+    transform: skewX(-30deg);
+}
