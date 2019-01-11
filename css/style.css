@@ -4,9 +4,7 @@ body{
 }
 #shaded{
     background-color: rgb(175, 154, 194);
-    width: 100%;
 }
-
 .intro {
     background-color: whitesmoke;
     margin: 0 auto;
@@ -16,4 +14,12 @@ body{
 }
 #hi{
     transform: skewX(-30deg);
+}
+#social{
+    transform: skewX(-30deg);
+}
+.socialButton{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
 }
