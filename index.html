@@ -1,106 +1,286 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../Portfolio/css/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Thasadith" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="../Portfolio/css/style.css">
-    <title>Elaine's Bootstrap Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../Portfolio/css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Thasadith" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../Portfolio/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <title>Elaine Cadman - Web Developer</title>
 </head>
 
 <body>
-    <div id="shaded"class="container-fluid p-0">
-    <div class="row m-0 p-0">
-    <header class="intro">
-        
-            <div id="hi" class="col-8 mx-auto">
-                    <h1 class="pt-2">Hello................................................I'm Elaine Cadman</h1>
-                    <h4 class="pl-3 ml-5">& it's nice to meet you.</h3>
 
-                    <div class="py-3"></div>
-                    <p class="p-2 mt-4">I'm a full-stack developer living in Oakland, CA with a background in Wine Importing and Hospitality.</p>
-            </div>
+  <!-- HEADER SECTION -->
+  <div id="shaded" class="container-fluid p-0">
+    <div id="headerContainer" class="row m-0 p-0">
+      <header class="intro">
 
+        <div id="hi" class="col-8 mx-auto">
+          <h1 class="row pt-2">Hello................................................I'm Elaine Cadman</h1>
+          <div class="row greetdiv">
+            <h3 id="greet" class="pl-3 ml-5">& it's nice to meet you.</h3>
+          </div>
 
+          <div class="backgroundDiv ml-2 mt-3">
+            <p class="p-2 back">I'm a full-stack developer living in Oakland, CA with a background in Wine Importing and Hospitality.</p>
+          </div>
+
+          <div class="viewDiv ml-2">
+            <p class="p-2 view">Please take a look at my portfolio below..............</p>
+          </div>
+
+        </div>
+
+<!-- Social Buttons -->
         <div id="social" class="row float-right">
-            <div class= "col-12">
+          <div class="col-12">
+            <div class="row">
 
-                <div class="row">
-                <div class = "col-3 ">
-                        <a href ="https://github.com/misselainious" target="_blank">
-                    <button class ="socialButton">Github <i class="fa fa-github"></i></button>
-                </div>
+              <div class="col-3 ">
+                <a href="https://github.com/misselainious" target="_blank">
+                  <button class="socialButton">Github <i class="fa fa-github"></i></button>
+                </a>
+              </div>
 
-                <div class = "col-3">
-                        <a href ="https://www.instagram.com/missyelainious/?hl=en" target="_blank">
-                    <button class ="socialButton">Instagram <i class="fa fa-instagram"></i></button>
-                </div>
+              <div class="col-3">
+                <a href="https://www.instagram.com/missyelainious/?hl=en" target="_blank">
+                  <button class="socialButton">Instagram <i class="fa fa-instagram"></i></button>
+                </a>
+              </div>
 
-                <div class = "col-3">
-                        <a href ="https://www.linkedin.com/in/elaine-cadman-3b99b98b/" target="_blank">
-                    <button class ="socialButton">LinkedIn <i class="fa fa-linkedin-square"></i></button>
-                </div>
-            
 
+              <div class="col-3">
+                <a href="https://www.linkedin.com/in/elaine-cadman-3b99b98b/" target="_blank">
+                  <button class="socialButton">LinkedIn <i class="fa fa-linkedin-square"></i></button>
+                </a>
+              </div>
 
             </div>
-
-            </div>
+          </div>
         </div>
 
 
-        </header>
-     
+
+
+      </header>
+    </div>
+  </div>
+  <!-- /HEADER SECTION -->
+
+
+  <!-- Container -->
+  <div class="container-fluid mt-4 bg-white">
+
+    <div class="row">
+      <!-- BIG COLUMN -->
+      <div class="col-8 p-0 mx-auto bg-info text-center">
+        <div class="bg-port">
+          <h4 class= "p-2">Portfolio</h4>
+        </div>
+
+  <!-- Front End Portfolio -->
+<div class="row">
+  <div class="col-12">
+<div class="">
+  <h5>Front-End</h5>
+</div>
+    <div class="card-columns mx-3 my-2">
+
+    <a href="https://morning-refuge-85247.herokuapp.com/" target="_blank">
+     <div class="card active-hover">
+       <img src="images/1ng.jpg" class="card-img-top" alt="One Ingredient">
+        <div class="card-body">
+         <h5 class="card-title">One Ingredient</h5>
+          <p class="card-text">1.ng (play on words "1 Ingredient") confronts the issue of buying an ingredient in bulk and having to eat the same recipe over and over again. With 1.ng the user can enter the ingredient they are planning to buy in bulk and then select any number of 6 presented recipes. A shopping list is automatically generated below when the user selects the recipe.</p>
+          <p class="card-text"><small class="text-muted">Click to see the app!</small></p>
+        </div>
+     </div>
+     </a>
+
+  <div class="card p-3 active-hover">
+    <blockquote class="blockquote mb-0 card-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <!-- Burger App -->
+  <a href="https://calm-citadel-31995.herokuapp.com/" target="_blank">
+  <div class="card  active-hover">
+     <img src="images/burger.png" class="card-img-top" alt="burger logo">
+     <div class="card-body">
+      <h5 class="card-title">Eat-a-Burger</h5>
+       <p class="card-text">A simple full stack application using Sql and handlebars. Users can create burgers and "eat" them!</p>
+       <p class="card-text"><small class="text-muted">Click to see the app!</small></p>
+     </div>
+  </div>
+  </a>
+
+  <div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>Full-Stack Development with an emphasis on database management. I look forward to working with you!</p>
+      <footer class="blockquote-footer text-white">
+        <small>
+          Elaine Cadman <cite title="Source Title"></cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card text-center active-hover">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/favicon.png" class="card-img-top" alt="...">
+  </div>
+  <div class="card p-3 text-right  active-hover">
+    <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">About Me</h5>
+      <p class="card-text">I Love to travel- some of my favorite places include Vietnam, Japan and South Africa.
+        I'm an avid scuba-diver and also teach yoga and spin class as often as I can.
+      I'm originally from Maine, but love California and the Bay Area especially.</p>
+      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+<!-- Back End Portfolio -->
+<div class="row">
+
+</div>
+
+
+
+      </div>
+
+      <!-- SMALL COLUMN -->
+      <div class="col-2 p-0 mx-auto bg-danger text-center">
+        <div class="bg-info">
+          <h4 class="p-2">Skills</h4>
+        </div>
+
+
+        <ul class="list-group mx-3 mb-3">
+          <h5>Front-End</h5>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              javascript
+              <span class="badge badge-primary badge-pill">Advanced</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Bootstrap
+              <span class="badge badge-primary badge-pill">Advanced</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              html
+              <span class="badge badge-primary badge-pill">Advanced</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              handlebars
+              <span class="badge badge-primary badge-pill">Proficient</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              JQuery
+              <span class="badge badge-primary badge-pill">Advanced</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              CSS
+              <span class="badge badge-primary badge-pill">Advanced</span>
+            </li>
+        </ul>
+
+        <ul class="list-group mx-3 mb-3">
+          <h5>Back-End</h5>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              mySql
+              <span class="badge badge-primary badge-pill">Advanced</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Express
+              <span class="badge badge-primary badge-pill">Advanced</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              node.js
+              <span class="badge badge-primary badge-pill">Advanced</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Firebase
+              <span class="badge badge-primary badge-pill">Proficient</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              React
+              <span class="badge badge-primary badge-pill">Learning</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              MySql
+              <span class="badge badge-primary badge-pill">Advanced</span>
+            </li>
+        </ul>
+
+      </div>
+
+    </div> <!--/Row -->
+
+
+
+
+  </div> <!-- /Container -->
+
+
+
+
+  <!-- Footer -->
+  <footer class="container-fluid bg-4 text-center bg-secondary p-4 mt-5 navbar-fixed-bottom" style="border-top: 20px solid #dddcb99d;">
+
+    <div class="row text-center">
+      <h5 class="mx-auto p-2 text-white">Let's Connect!</h5>
     </div>
 
+    <div class="row">
 
-        
+      <div class="col-7 mx-auto">
+        <div class="row">
+
+          <div class="col-3 mx-auto py-2">
+            <a href= "mailto:elaine.cadman@gmail.com" target= "_top" ></a>
+            <button class="social">Email <i class="fa fa-envelope-open-o" aria-hidden="true"></i></button>
+          </div>
+
+        </div>
+      </div>
+
     </div>
-    <!-- Container -->
-    <div class="container-fluid mt-4 bg-white">
-          
-        
+  </footer>
+  <!-- /Footer -->
 
 
-    <!-- /Container -->
-    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 
-                <!-- Footer -->
-                <footer class="container-fluid bg-4 text-center bg-secondary p-4 mt-5 navbar-fixed-bottom" style="border-top: 20px solid #dddcb99d;">
-                   
-                        <div class = "row text-center">
-                            <h5 class="mx-auto p-2 text-white">Let's Connect!</h5>
-                        </div>
-
-                      <div class= "row">
-                         
-                        <div class = "col-7 mx-auto">
-                            <div class = "row">
-
-                                <div class = "col-3 mx-auto py-2">
-                                        <a href ="mailto:elaine.cadman@gmail.com" target="_top"></a>
-                                    <button class ="social">Email <i class="fa fa-envelope-open-o" aria-hidden="true"></i></button>
-                                </div>
-
-                                
-
-                            </div>
-                        </div>
-      
-                    </div>  
-                </footer>  
-                <!-- /Footer -->
-
-                
-         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>

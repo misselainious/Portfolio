@@ -1,20 +1,69 @@
 body{
     font-family: 'Thasadith', sans-serif;
     font-family: 'Abel', sans-serif;
+    background-color: whitesmoke;
+    background-image: url("../images/brushed-alum.png");
+    background-size: cover;
+}
+.bg-white{
+  background-color: whitesmoke;
+  background-image: url("../images/brushed-alum.png");
+  background-size: cover;
+}
+.bg-primary{
+  background-color: rgba(173, 117, 112, 0.79) !important;
+  /* background-image: url("../images/brushed-alum.png");
+  background-size: cover; */
+}
+.bg-port{
+  background-color: rgba(88, 96, 89, 0.9) !important;
+  background-image: url("../images/brushed-alum.png");
+  background-size: cover;
+}
+.bg-info{
+  background-color: rgba(117, 111, 101, 0.84) !important;
+  background-image: url("../images/brushed-alum.png");
+  background-size: cover;
+}
+.bg-danger{
+  background-color: rgb(94,125,143) !important;
+  background-image: url("../images/brushed-alum.png");
+  background-size: cover;
+}
+a{
+  color: black !important;
 }
 #shaded{
-    background-color: rgb(175, 154, 194);
+    /* background-color: rgba(175, 154, 194, 0.62); */
+    background: url("../images/photo-1458682625221-3a45f8a844c7.jpeg") no-repeat;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* object-fit: contain; */
 }
 .intro {
-    background-color: whitesmoke;
+
+    /* opacity: 0.2; */
+    background-color: rgba(245, 239, 240, 0.8);
     margin: 0 auto;
     padding: 50px 10px;
     transform: skewX(30deg);
     width: calc(100% - 200px);
 }
+.greetdiv{
+  height: 58px;
+}
+.backgroundDiv, .viewDiv{
+  height: 40px;
+}
+
 #hi{
     transform: skewX(-30deg);
+
 }
+#greet, .back, .view{
+  display: none;
+}
+
 #social{
     transform: skewX(-30deg);
 }
@@ -22,4 +71,17 @@ body{
     width: 100px;
     height: 40px;
     margin: 10px;
+}
+
+.badge-primary{
+  background: rgb(94,125,143) !important;
+}
+
+.card-img-top{
+  margin-top: 20px;
+  height: 120px;
+  width: 120px;
+}
+.active-hover:hover{
+  transform: scale(1.02);
 }
